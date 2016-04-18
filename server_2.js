@@ -63,15 +63,16 @@ server.on('request', function(req, res) {
 				    }
 
 					//send text
-					//twilio.messages.create({
-					//    to: destinationNumber,
-					//    from: '+16506662343',  //my twilio number/account
-					//    body: textBody.join('')
-					//}, function(error, message) {
-					//    if (error) {
-					//        console.log(error.message);
-					//    }
-					//});
+					twilio.messages.create({
+					  to: destinationNumber,
+					  from: '+16506662343',  //my twilio number/account
+					  body: textBody.join('')
+					function(error, message) {
+					  if (error) {
+					    console.log(error.message);
+					  }
+                                        });
+					
 
 					//show on browser data being sent
 					res.end(textBody.join(''));
