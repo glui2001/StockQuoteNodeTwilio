@@ -2,6 +2,7 @@
 Various examples of fetching stock quotes using nodeJS and Twilio mobile messaging API
 
 # Setup
+- Install nodeJS (https://nodejs.org/en/download/)
 - Run 'npm install' locally
 - Create Twilio account and Twilio number.  Please refer to the guides at https://www.twilio.com/docs/quickstart
 
