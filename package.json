@@ -1,0 +1,30 @@
+{
+  "name": "StockQuoteNodeTwilio",
+  "version": "1.0.0",
+  "description": "Various examples of fetching stock quotes using nodeJS and Twilio mobile messaging API",
+  "main": "inbound.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glui2001/StockQuoteNodeTwilio.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "twilio",
+    "javascript"
+  ],
+  "author": "George Lui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glui2001/StockQuoteNodeTwilio/issues"
+  },
+  "homepage": "https://github.com/glui2001/StockQuoteNodeTwilio",
+  "devDependencies": {
+    "numeral": "^1.5.3",
+    "twilio": "^2.9.1",
+    "xml2js": "^0.4.16"
+  }
+}
